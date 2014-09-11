@@ -22,8 +22,8 @@ make
 sudo make install
 
 cd ..
-git clone https://github.com/SoftwareDefinedBuildings/KMEG.git -b KMEG-blip
-cd KMEG/tinyos-main/tools
+git clone https://github.com/SoftwareDefinedBuildings/KetiMotes.git
+cd KetiMotes/tinyos-main/tools
 ./Bootstrap
 ./configure
 make
