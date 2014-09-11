@@ -22,8 +22,7 @@ make
 sudo make install
 
 cd ..
-git clone https://github.com/SoftwareDefinedBuildings/KetiMotes.git
-cd KetiMotes/tinyos-main/tools
+cd tinyos-main/tools
 ./Bootstrap
 ./configure
 make
