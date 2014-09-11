@@ -1,0 +1,10 @@
+export TOSROOT=`pwd`
+export TOSDIR="$TOSROOT/tos"
+export MAKERULES="$TOSROOT/support/make/Makerules"
+export CLASSPATH="$TOSROOT/support/sdk/java/tinyos.jar:."
+export PYTHONPATH="$TOSROOT/support/sdk/python:$PYTHONPATH"
+export PATH="$TOSROOT/support/sdk/c:$PATH"
+export PATH="$TOSROOT/tools/platforms/msp430/motelist:$PATH"
+export PATH="$TOSROOT/tools/platforms/msp430/pybsl:$PATH"
+sudo chmod +x "$TOSROOT/tools/platforms/msp430/motelist/motelist"
+sudo chmod +x "$TOSROOT/tools/platforms/msp430/pybsl/tos-bsl"
